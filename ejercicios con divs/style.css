@@ -1,0 +1,134 @@
+.box {
+    background-color: rgba(255, 255, 255, 0.877);
+    display: flexbox;
+    padding: 0%;
+    border: 10ch;
+    width: 35%;
+}
+
+.encabezado {
+    height: 45px;
+    background-color: #CCCCCC;
+    color: rgb(20, 20, 20);
+    margin: 1%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+.cuerpo {    
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 180px;
+
+}
+.cuerpo > div {
+     margin: 1%;
+    line-height: 1.6;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cuerpo2{
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 180px;
+   
+}
+.cuerpo2 > div {
+    text-align: left ;
+        margin: 1%;;
+       line-height: 1.6;
+       border: 1px solid black;
+       border-radius: 5px;
+       
+}
+.bloqueIzquierda {
+    background-color: rgb(71, 69, 69);
+    flex-grow: 1;
+    
+}
+.bloqueCentro{
+    background-color: rgb(41, 164, 150);
+    flex-grow: 1;
+
+}
+.bloqueDerecha{
+    background-color: rgba(235, 145, 10, 0.893);
+    flex-grow: 1;
+}
+.bloqueIzquierda2{
+    background-color: rgb(6, 63, 6);
+    flex-grow: 3;
+   
+}
+.bloqueDerecha2{
+    background-color: rgb(153, 66, 8);
+    flex-grow: 1;
+    align-content: flex-start;
+
+}
+.pie {
+    background-color: #00CCFF;
+    height: 90%;
+    color: rgb(49, 47, 47);
+    padding: 3%;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+ }
+ .menu1{
+    display: block;
+    width: 200px;
+    background-color: rgb(15, 225, 57);
+    color: white;
+    text-align:justify;
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-right: 1%;
+
+}
+
+ .menu2{
+    display: block;
+    width: 62%;
+    height: 40%;
+    background-color: rgb(116, 37, 37);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-left: 37%;
+
+}
+ .logo{
+    display: block;
+    width: 150px;
+    height: 300p;
+    margin-left: 1%;
+    background-color: rgb(37, 37, 171);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-top: -4%;
+}
+
+ .elemento{
+     width: 200px;
+     height: 300p;
+    background-color:rgb(19, 19, 219);
+    color: white;
+    text-align: center;
+    float: right;
+    border-style: solid;
+     border-width: 1px;
+     border-color: black;
+    margin-right: 0%;
+ }
